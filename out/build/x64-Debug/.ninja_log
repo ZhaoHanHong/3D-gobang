@@ -1,0 +1,22 @@
+# ninja log v5
+18	211	7200315301679652	CMakeFiles/main.dir/main.cpp.obj	f2c878de756e9f9d
+22	189	7198524701951613	build.ninja	1a608bc8b214fa77
+23	236	7200328296162147	CMakeFiles/3dgobang.dir/src/player.cpp.obj	adcfb94e31a8ed03
+27	240	7200328296162147	CMakeFiles/3dgobang.dir/src/game.cpp.obj	d0be7b4d66feff4c
+13	239	7200310889246176	CMakeFiles/3dgobang.dir/src/board.cpp.obj	9eb59a028ca256e6
+9	418	7198490542323694	3dgobang.dll	31b2ab86ed8f7738
+242	283	7200328296477623	3dgobang.lib	b52c372bf3edbcb2
+283	912	7200328297491489	main.exe	71b408dffd7c73a7
+29	213	7200329396696309	CMakeFiles/main.dir/main.cpp.obj	f2c878de756e9f9d
+25	217	7200329396696309	CMakeFiles/3dgobang.dir/src/game.cpp.obj	d0be7b4d66feff4c
+217	260	7200329397169351	3dgobang.lib	b52c372bf3edbcb2
+260	839	7200329397954697	main.exe	71b408dffd7c73a7
+25	127	7200329837329704	CMakeFiles/3dgobang.dir/src/game.cpp.obj	d0be7b4d66feff4c
+128	163	7200329837647097	3dgobang.lib	b52c372bf3edbcb2
+163	596	7200329838441168	main.exe	71b408dffd7c73a7
+22	223	7200332152256759	CMakeFiles/3dgobang.dir/src/game.cpp.obj	d0be7b4d66feff4c
+224	260	7200332152573076	3dgobang.lib	b52c372bf3edbcb2
+260	830	7200332153389630	main.exe	71b408dffd7c73a7
+17	83	7200332646754887	CMakeFiles/3dgobang.dir/src/game.cpp.obj	d0be7b4d66feff4c
+84	116	7200332647074229	3dgobang.lib	b52c372bf3edbcb2
+116	582	7200332647869428	main.exe	71b408dffd7c73a7
