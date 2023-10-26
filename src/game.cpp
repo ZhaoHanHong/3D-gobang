@@ -104,7 +104,7 @@ namespace bang {
 				if (sum == gamesize_ * gameboard_->STAR)return gameboard_->STAR;
 
 				sum = 0;
-				for (int j = gamesize_ - 1, k = 0; j >= 0; j--, k++) {
+				for (int j = 0, k = 0; j < gamesize_; j++, k++) {
 					sum += gameboard_->getstate(i + 1, j + 1, k + 1);
 				}
 				if (sum == gamesize_ * gameboard_->DOT)return gameboard_->DOT;
@@ -121,7 +121,7 @@ namespace bang {
 				if (sum == gamesize_ * gameboard_->DOT)return gameboard_->DOT;
 				if (sum == gamesize_ * gameboard_->STAR)return gameboard_->STAR;
 				sum = 0;
-				for (int k = gamesize_ - 1, i = 0; k >= 0; k--, i++) {
+				for (int k = 0, i = 0; k <gamesize_; k++, i++) {
 					sum += gameboard_->getstate(i + 1, j + 1, k + 1);
 				}
 				if (sum == gamesize_ * gameboard_->DOT)return gameboard_->DOT;
@@ -138,7 +138,7 @@ namespace bang {
 				if (sum == gamesize_* gameboard_->DOT)return gameboard_->DOT;
 				if (sum == gamesize_ * gameboard_->STAR)return gameboard_->STAR;
 				sum = 0;
-				for (int i = gamesize_ - 1, j = 0; i >= 0; i--, j++) {
+				for (int i = 0, j = 0; i < gamesize_ ; i++, j++) {
 					sum += gameboard_->getstate(i + 1, j + 1, k + 1);
 				}
 				if (sum == gamesize_ * gameboard_->DOT)return gameboard_->DOT;
